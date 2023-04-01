@@ -1,0 +1,271 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jpr:project xmlns:jpr="http://xmlns.oracle.com/ide/project">
+   <hash n="component-versions">
+      <value n="oracle.adfdt.controller.adfc.source.migration.AdfControllerSchemaMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.adfdt.controller.common.migrator.ProjectMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.adfdt.controller.jsf2.diagram.migrate.JsfNodeMigratorHelper" v="11.1.1.1.0"/>
+      <value n="oracle.adfdt.controller.migrate.TrinidadDatabindingsProjectMigrator" v="11.1.2.0.0"/>
+      <value n="oracle.adfdtinternal.dvt.datapresdt.migration.DVTDataMapMigrator" v="11.1.1.1.0.3"/>
+      <value n="oracle.adfdtinternal.dvt.datapresdt.migration.DVTWebAppConfigurationMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.adfdtinternal.model.ide.migration.ProjectMigrator" v="11.1.1.1.0.11.1.1"/>
+      <value n="oracle.adfdtinternal.model.ide.placeholderdc.migrator.PlaceholderProjectMigrator" v="12.1.4.0.0"/>
+      <value n="oracle.adfdtinternal.model.ide.security.wizard.FormPageMigrator" v="11.1.1.0.0"/>
+      <value n="oracle.adfdtinternal.model.ide.security.wizard.JpsFilterMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.adfdtinternal.model.ide.xmled.migration.ADFNodeMigrator" v="11.1.1.1.0.5"/>
+      <value n="oracle.adfdtinternal.model.ide.xmled.migration.PageDefinitionParameterValueMigrator" v="11.1.1.1.0.5"/>
+      <value n="oracle.adfdtinternal.model.ide.xmled.migration.RestDataControlMigrator" v="12.1.4.0.0"/>
+      <value n="oracle.adfdtinternal.model.ide.xmled.migration.WebXmlMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.adfdtinternal.view.common.migration.wizards.MigrationHelper" v="11.1.1.1.0.3"/>
+      <value n="oracle.adfdtinternal.view.rich.binding.migration.JarResourceMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.adfdtinternal.view.rich.migration.ComponentIdNodeMigratorHelper" v="11.1.1.1.0.01"/>
+      <value n="oracle.adfdtinternal.view.rich.migration.FacesLibraryVersionMigrator" v="11.1.1.1.0.1"/>
+      <value n="oracle.ide.model.Project" v="12.2.1.4.0"/>
+      <value n="oracle.ide.model.ResourcePathsMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.ideimpl.model.TechnologyScopeUpdateMigrator" v="11.1.2.0.0.6"/>
+      <value n="oracle.jbo.dt.jclient.migrator.JCProjectMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jbo.dt.jdevx.deployment.JbdProjectMigrator" v="11.1.2.0.0"/>
+      <value n="oracle.jbo.dt.jdevx.ui.appnav.APAdfConfigMigrator" v="11.1.2.0.0"/>
+      <value n="oracle.jbo.dt.jdevx.ui.appnav.APProjectMigrator" v="11.1.1.0.1.5"/>
+      <value n="oracle.jbo.dt.migrate.ResourceBundlePathMigrator" v="11.1.1.0.1.5"/>
+      <value n="oracle.jbo.dt.migration.ServiceInterfaceMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdeveloper.dbmodeler.Migration" v="12.1.1.0.0"/>
+      <value n="oracle.jdeveloper.ejb.EjbMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdeveloper.library.ProjectLibraryMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdeveloper.maven.migrator.POMNodeMigrator" v="12.2.1.0.0"/>
+      <value n="oracle.jdeveloper.model.OutputDirectoryMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.deploy.jps.JpsDataMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.deploy.migrators.DeploymentMigrator" v="12.1.2.0.1"/>
+      <value n="oracle.jdevimpl.jsp.JspMigrator" v="11.1.1"/>
+      <value n="oracle.jdevimpl.offlinedb.migration.OfflineDBProjectMigrator" v="12.1.1.0.0"/>
+      <value n="oracle.jdevimpl.offlinedb.migration.SXMLOfflineDBProjectMigrator" v="12.1.4.0.0"/>
+      <value n="oracle.jdevimpl.resourcebundle.XliffAddin$XliffMigratorHelper" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.webapp.facelets.libraries.FaceletsLibraryMigrator" v="12.2.1.0.0"/>
+      <value n="oracle.jdevimpl.webapp.jsp.libraries.JspLibraryMigrator" v="12.1.4.0.0"/>
+      <value n="oracle.jdevimpl.webapp.jsp.taglibraries.trinidad.migration.TrinidadLibraryVersionMigrator" v="11.1.1.1.0.1"/>
+      <value n="oracle.jdevimpl.webapp.WebAppContentSetNodeMigratorHelper" v="11.1.1"/>
+      <value n="oracle.jdevimpl.webapp.WebAppProjectNodeMigratorHelper" v="12.2.1.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestAppClassMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestJerseyLibMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestLibraryMigrator" v="12.1.1.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestOwsmPolicyMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestPathMigrator" v="11.1.2.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestWebAppMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.rest.migration.RestWeblogicWebAppMigrator" v="12.1.3.0.0"/>
+      <value n="oracle.jdevimpl.webservices.WebServicesMigratorHelper" v="11.1.1.1.0"/>
+      <value n="oracle.jdevimpl.xml.wl.WeblogicMigratorHelper" v="11.1.1.1.0"/>
+      <value n="oracle.modeler.bmmigrate.management.Migration" v="11.1.1.1.0"/>
+      <value n="oracle.toplink.workbench.addin.migration.PersistenceProjectMigrator" v="11.1.1.1.0"/>
+      <value n="oracle.toplink.workbench.addin.migration.TopLinkProjectMigrator" v="11.1.1.1.0"/>
+   </hash>
+   <list n="contentSets">
+      <string v="oracle.mds.internal.dt.ide.MDSLibraryCustCSProvider/mdsContentSet"/>
+      <string v="oracle.mds.internal.dt.ide.MDSADFLibVirtualNodeCSProvider/mdsLibVirtualNodeContentSet"/>
+      <string v="oracle.jdeveloper.model.J2eeSettings/webContentSet"/>
+      <string v="oracle.jdeveloper.model.PathsConfiguration/javaContentSet"/>
+      <string v="oracle.ide.model.ResourcePaths/resourcesContentSet"/>
+      <string v="oracle.jdeveloper.offlinedb.model.OfflineDBProjectSettings/offlineDBContentSet"/>
+      <string v="oracle.adfdtinternal.model.ide.settings.ADFMSettings/adfmContentSet"/>
+      <string v="oracle.bm.commonIde.data.project.ModelerProjectSettings/modelersContentSet"/>
+      <string v="oracle.toplink.workbench.addin/toplinkContentSet"/>
+   </list>
+   <value n="defaultPackage" v="projectcoll3"/>
+   <hash n="oracle.ide.model.TechnologyScopeConfiguration">
+      <list n="technologyScope">
+         <string v="Java"/>
+      </list>
+   </hash>
+   <hash n="oracle.jdeveloper.compiler.OjcConfiguration">
+      <value n="webIANAEncoding" v="windows-1251"/>
+   </hash>
+   <hash n="oracle.jdeveloper.model.PathsConfiguration">
+      <hash n="javaContentSet">
+         <list n="pattern-filters">
+            <string v="+**"/>
+         </list>
+         <list n="url-path">
+            <url path="src/"/>
+         </list>
+      </hash>
+   </hash>
+   <hash n="oracle.jdevimpl.config.JProjectLibraries">
+      <hash n="internalDefinitions">
+         <list n="jdkDefinitions">
+            <hash>
+               <list n="classPath">
+                  <url protocol="mjdk" path="/D:/Program Files/Java/jdk-19.0.2/jmods/!/mod!/"/>
+               </list>
+               <value n="description" v="19.0.2"/>
+               <list n="docPath">
+                  <url protocol="http" host="docs.oracle.com" path="/javase/19/docs/api/"/>
+               </list>
+               <list n="expandedClassPath">
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.base.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.compiler.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.datatransfer.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.desktop.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.instrument.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.logging.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.management.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.management.rmi.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.naming.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.net.http.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.prefs.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.rmi.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.scripting.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.se.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.security.jgss.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.security.sasl.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.smartcardio.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.sql.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.sql.rowset.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.transaction.xa.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.xml.crypto.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/java.xml.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.accessibility.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.attach.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.charsets.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.compiler.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.crypto.cryptoki.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.crypto.ec.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.crypto.mscapi.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.dynalink.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.editpad.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.hotspot.agent.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.httpserver.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.incubator.concurrent.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.incubator.vector.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.ed.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.jvmstat.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.le.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.opt.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.vm.ci.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.vm.compiler.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.internal.vm.compiler.management.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jartool.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.javadoc.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jcmd.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jconsole.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jdeps.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jdi.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jdwp.agent.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jfr.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jlink.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jpackage.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jshell.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jsobject.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.jstatd.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.localedata.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.management.agent.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.management.jfr.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.management.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.naming.dns.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.naming.rmi.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.net.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.nio.mapmode.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.random.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.sctp.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.security.auth.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.security.jgss.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.unsupported.desktop.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.unsupported.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.xml.dom.jmod!/classes/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/jmods/jdk.zipfs.jmod!/classes/"/>
+               </list>
+               <list n="expandedSourcePath">
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.zipfs/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.xml.dom/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.unsupported/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.unsupported.desktop/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.security.jgss/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.security.auth/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.sctp/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.random/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.nio.mapmode/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.net/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.naming.rmi/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.naming.dns/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.management/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.management.jfr/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.management.agent/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.localedata/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jstatd/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jsobject/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jshell/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jpackage/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jlink/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jfr/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jdi/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jdeps/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jconsole/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jcmd/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.javadoc/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.jartool/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.services/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.runtime/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.meta/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.hotspot/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.hotspot.amd64/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.hotspot.aarch64/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.common/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.code/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.amd64/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.vm.ci/jdk.vm.ci.aarch64/src/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.opt/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.le/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.jvmstat/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.internal.ed/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.incubator.vector/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.incubator.concurrent/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.httpserver/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.hotspot.agent/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.editpad/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.dynalink/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.crypto.mscapi/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.crypto.ec/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.crypto.cryptoki/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.compiler/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.charsets/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.attach/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/jdk.accessibility/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.xml/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.xml.crypto/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.transaction.xa/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.sql/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.sql.rowset/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.smartcardio/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.security.sasl/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.security.jgss/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.scripting/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.rmi/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.prefs/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.net.http/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.naming/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.management/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.management.rmi/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.logging/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.instrument/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.desktop/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.datatransfer/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.compiler/"/>
+                  <url protocol="jar" path="file:/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/java.base/"/>
+               </list>
+               <value n="id" v="19.0.2"/>
+               <url n="javaExecutable" protocol="file" path="/D:/Program Files/Java/jdk-19.0.2/bin/java.exe"/>
+               <url n="sdkBinDir" protocol="file" path="/D:/Program Files/Java/jdk-19.0.2/bin/"/>
+               <list n="sourcePath">
+                  <url protocol="mjdk" path="/D:/Program Files/Java/jdk-19.0.2/lib/src.zip!/src!/"/>
+               </list>
+               <value n="version" v="19.0.2"/>
+            </hash>
+         </list>
+      </hash>
+      <hash n="jdkReference">
+         <value n="id" v="19.0.2"/>
+         <value n="isJDK" v="true"/>
+         <value n="jdkVersion" v="19.0.2"/>
+      </hash>
+   </hash>
+   <hash n="oracle.jdevimpl.config.JProjectPaths">
+      <url n="outputDirectory" path="classes/"/>
+   </hash>
+</jpr:project>
