@@ -403,7 +403,7 @@ test*.*
 # My Bot
 bot.*
 
-# ========================================================================
+# =====================================================================================
 # JDeveloper
 # =====================================================================================
 # default application storage directory used by the IDE Performance Cache feature
@@ -419,3 +419,13 @@ bot.*
 
 # lock file, a part of Oracle Credential Store Framework
 **/cwallet.sso.lck
+
+# =====================================================================================
+# Code::Blocks
+# =====================================================================================
+# specific to CodeBlocks IDE
+*.layout
+*.depend
+# generated directories
+bin/
+obj/
